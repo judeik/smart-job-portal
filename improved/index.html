@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find jobs, internships, government jobs, and top recruiters around you.">
+    <meta name="keywords" content="job portal, recruitment, internships, government jobs, companies, job search">
+    <meta name="author" content="Ojobor Jude Ikechukwu">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist_3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap-4.0.0-dist_3/js/bootstrap.min.js"></script>
+    <title>Job Portal - Divine Heritage Computers</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <section id="header">
+            <div class="menu-bar">
+                <nav class="navbar navbar-expand-lg navbar-light" aria-label="Main navigation">
+                    <a class="navbar-brand" href="#" title="Divine Heritage Computer Logo">
+                        <img src="images/dhc-logo.png" alt="Divine Heritage Computer Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">All Jobs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Companies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Walk-In</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Govt. Jobs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Internship</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Banner -->
+            <div class="banner text-center">
+                <h1>JOBS AROUND YOU</h1>
+                <p>Your sure way of getting jobs</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Job Search Section -->
+    <section class="search-job">
+        <form class="search-form" role="search" aria-labelledby="search-form-title">
+            <h2 id="search-form-title" class="sr-only">Job Search Form</h2>
+            <label for="search" class="sr-only">Search Keyword</label>
+            <input type="text" name="search" id="search" class="form-control" placeholder="Search Keyword" aria-required="true">
+    
+            <label for="company" class="sr-only">Company</label>
+            <input type="text" name="company" id="company" class="form-control" placeholder="Company">
+    
+            <label for="location" class="sr-only">Location</label>
+            <input type="text" name="location" id="location" class="form-control" placeholder="Location">
+    
+            <button type="submit" class="btn-primary" aria-label="Find Jobs">Find Job</button>
+        </form>
+    </section>
+    
+    <!-- Top Recruiters Section -->
+    <section id="recruiters" aria-label="Top Recruiters">
+        <div class="container text-center">
+            <h2>Top Recruiters</h2>
+            <div class="row">
+                <div class="col-md-3"><img src="images/clevertech.jpg" alt="Clevertech Logo"></div>
+                <div class="col-md-3"><img src="images/indeed.jpg" alt="Indeed Logo"></div>
+                <div class="col-md-3"><img src="images/semaphone.jpg" alt="Semaphore Logo"></div>
+                <div class="col-md-3"><img src="images/zapier.jpg" alt="Zapier Logo"></div>
+            </div>
+            <!-- More recruiters can be added in subsequent rows -->
+        </div>
+    </section>
+
+    <!-- Recent Jobs Section -->
+    <section id="jobs" aria-label="Recent Job Listings">
+        <div class="container">
+            <h2>Recent Updates</h2>
+
+            <!-- Job Update 1 -->
+            <div class="company-details">
+                <div class="job-update">
+                    <h3>Seasoned Senior Python Developer (Fresher)</h3>
+                    <p>XYZ Solution PVT Ltd</p>
+                    <i class="fa fa-briefcase"></i><span> 0-1 year experience</span><br>
+                    <i class="fa fa-inr"></i><span> 3.50 - 4.00 Lacs p.a.</span><br>
+                    <i class="fa fa-map-marker"></i><span> Bangalore</span>
+                    <p>Skills: <small>Java</small>, <small>Python</small>, <small>HTML, CSS</small>, <small>.Net</small></p>
+                    <p>Description: Subscribe to Ojobor Dev YouTube Channel to watch more videos on web design and digital marketing. <a href="#">Read more</a></p>
+                </div>
+                <div class="apply-btn">
+                    <button type="button" class="btn btn-primary">Apply</button>
+                </div>
+            </div>
+
+            <!-- More job updates similar to above -->
+
+            <!-- Pagination for Jobs -->
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">&#8592;</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">&#8594;</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Site Stats Section -->
+    <section id="site-stats" aria-label="Site Stats">
+        <div class="container text-center">
+            <h2>DHCJOBS Site Stats</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <i class="fa fa-user"></i><span> 100k +</span>
+                        <p>Job Seekers</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <i class="fa fa-shield" aria-hidden="true"></i><span> 500k +</span>
+                        <p>Employers</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <i class="fa fa-briefcase"></i><span> 10k +</span>
+                        <p>Active Jobs</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stats-box">
+                        <i class="fa fa-building"></i><span> 500k +</span>
+                        <p>Companies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- App Banner Section -->
+    <section id="app-banner" class="text-center" aria-label="Download App">
+        <h2>Find Jobs On Mobile, Download DHCJobs APP</h2>
+        <a href="#"><img src="images/app-store-icon.jpg" alt="Apple Store" title="Download from Apple Store"></a>
+        <a href="#"><img src="images/play-store-icon.jpg" alt="Google Play Store" title="Download from Google Play"></a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="text-center" aria-label="Footer">
+        <img src="images/logo.png" class="footer-image" alt="DHC Logo" title="DHC Logo">
+        <p>Subscribe to Divine Heritage Computer YouTube Channel to watch more videos on web designing and digital marketing. Press the bell icon for notifications.</p>
+        <div class="social-links">
+            <a href="#"><img src="images/facebook-logo-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/whatsapp-icon.png" alt="WhatsApp"></a>
+        </div>
+        <p>&copy; 2024 Divine Heritage Computer - All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
